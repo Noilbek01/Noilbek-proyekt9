@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:#ECECEC;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.item{
+    margin: 20px;
+    color: #1A1A1A;
+}
+.plant{
+    color: #1A1A1A;
+    font-size: 24px;
+    line-height: 32px;
+}
+.sing{
+    margin:0 80px;
+    border: 1px solid #066F14;
+    background: #066F14;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFFFFF;
+}
+main .container{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.main-text{
+    width: 40%;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.box{
+    background-image: url(../img/klipartz\ 5.png);
+     background-repeat: no-repeat;
+     width: 670px;
+     height: 700px;
+     margin-bottom: 30px;
+     
+}
+
+.stem{
+    width: 290px;
+    height: 53px;
+    margin-left: -45px;
+    margin-top: 182px;
+}
+.media{
+    width: 290px;
+    height: 53px;
+    margin-left: 350px;
+    margin-top: 280px;
+}
+.thorn{
+    width: 290px;
+    height: 53px;
+    margin-left: 320px;
+}
+.main-img{
+    width: 157px;
+    height: 193px;
+    margin-top: 350px;
+    margin-left: -60px;
+}
+.main-h2{
+    font-size: 60px;
+    line-height: 70px;
+    color: #1A1A1A;
+}
+.main-p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #4A4A4A;
+    margin-top: 24px;
+}
+.main-a{
+    color: #FFFFFF;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #066F14;
+    background-color: #066F14;
+    margin-top: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.main-ul{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: -20px;
+    
+}
+.titles{
+    display: flex;
+    align-items: center;
+    
+}
+.delevery-h2{
+    color: #001B04;
+    font-size: 36px;
+    line-height: 49px;
+}
+.delevery-li{
+    margin: 20px;
+}
+.delevery-a{
+    color: #1A1A1A;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 10px;
+}
